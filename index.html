@@ -1,69 +1,70 @@
-<style>
-  footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #343a40;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-  }
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Modul 2 - Registrasi</title>
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- CSS Buatan Sendiri -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-  <div class="container" style="padding-bottom: 70px">
-    <form action="">
-      <div class="col-sm-10">
-        <div class="form-group">
-          <label>Nama: </label>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Name"
-            name="nama"
-            required
-          />
-        </div>
 
-        <div class="form-group">
-          <label>Email: </label>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Email"
-            name="email"
-            required
-          />
-        </div>
+<div class="container main-content">
+    <h2 class="text-center">Form Registrasi Mahasiswa</h2>
+    <hr>
 
-        <div class="form-group">
-          <label>Password: </label>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Password"
-            name="password"
-            required
-          />
-        </div>
+    <form>
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
 
-        <div class="form-group">
-          <label>Jenis Kelamin: </label>
-          <select class="form-control">
-            <option>Pria</option>
-            <option>Wanita</option>
-          </select>
-        </div>
+                <div class="form-group">
+                    <label>Nama Lengkap :</label>
+                    <input type="text" class="form-control" placeholder="Masukkan Nama Lengkap" required>
+                </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
+                <div class="form-group">
+                    <label>NIM :</label>
+                    <input type="text" class="form-control" placeholder="Masukkan NIM Anda" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Email :</label>
+                    <input type="email" class="form-control" placeholder="Email@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Password :</label>
+                    <input type="password" class="form-control" placeholder="Password" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Jenis Kelamin :</label>
+                    <select class="form-control">
+                        <option>Pria</option>
+                        <option>Wanita</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block">
+                    Kirim Data
+                </button>
+
+            </div>
+        </div>
     </form>
-  </div>
 
-  <!-- FOOTER FIXED -->
-  <footer>
-    <p>Nama: Nia Anriani Mondo</p>
-    <p>NIM: 220211060262</p>
-  </footer>
+    <!-- Footer sesuai tugas -->
+    <footer class="text-center mt-4">
+        <hr>
+        <p>Nama: NIA ANDRIANI MONDO | NIM: [ISI NIM]</p>
+    </footer>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="js/bootstrap.js"></script>
 </body>
+</html>
