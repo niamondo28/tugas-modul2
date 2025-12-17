@@ -1,0 +1,106 @@
+/* ==============================
+   GLOBAL STYLE
+============================== */
+body {
+  padding-top: 50px;
+  background: linear-gradient(135deg, #e9f0ff, #f8f9fa);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ==============================
+   CONTAINER FORM
+============================== */
+.container {
+  background-color: #ffffff;
+  padding: 40px 45px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  transition: transform 0.3s ease;
+}
+
+.container:hover {
+  transform: translateY(-3px);
+}
+
+/* ==============================
+   JUDUL
+============================== */
+h2 {
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 25px;
+}
+
+/* ==============================
+   FORM GROUP
+============================== */
+.form-group {
+  margin-bottom: 22px;
+}
+
+/* ==============================
+   LABEL
+============================== */
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #343a40;
+  display: block;
+}
+
+/* ==============================
+   INPUT & SELECT
+============================== */
+.form-control {
+  height: 46px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+  transition: all 0.3s ease;
+}
+
+/* Efek fokus input */
+.form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+/* ==============================
+   BUTTON SUBMIT
+============================== */
+.btn-primary {
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover button */
+.btn-primary:hover {
+  background: linear-gradient(135deg, #0a58ca, #084298);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(13, 110, 253, 0.4);
+}
+
+/* ==============================
+   FOOTER
+============================== */
+footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  border-top: 1px solid #dee2e6;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* ==============================
+   RESPONSIVE
+============================== */
+@media (max-width: 576px) {
+  .container {
+    padding: 30px 20px;
+  }
+}
